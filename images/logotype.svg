@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 623.6 144.7" enable-background="new 0 0 623.6 144.7" xml:space="preserve">
+<font horiz-adv-x="1000">
+<!-- Copyright 1989, 1995, 2002 Adobe Systems Incorporated. All Rights Reserved. Avenir is a trademark of Heidelberger Druckmaschinen AG, exclusively licensed through Linotype Library GmbH, and may be registered in certain jurisdictions. -->
+<font-face font-family="AvenirLTStd-Heavy" units-per-em="1000" underline-position="-100" underline-thickness="50"/>
+<missing-glyph horiz-adv-x="500" d="M0,0l500,0l0,700l-500,0M250,395l-170,255l340,0M280,350l170,255l0,-510M80,50l170,255l170,-255M50,605l170,-255l-170,-255z"/>
+<glyph unicode="A" horiz-adv-x="722" d="M0,0l141,0l64,162l307,0l66,-162l144,0l-305,708l-109,0M248,270l111,288l109,-288z"/>
+<glyph unicode="C" horiz-adv-x="685" d="M663,614C593,695 511,726 415,726C197,726 41,578 41,351C41,130 197,-18 415,-18C519,-18 615,20 679,108l-104,74C528,122 473,96 416,96C270,96 173,208 173,359C173,500 270,612 416,612C465,612 513,597 565,542z"/>
+<glyph unicode="E" horiz-adv-x="611" d="M79,0l487,0l0,114l-361,0l0,192l325,0l0,114l-325,0l0,174l343,0l0,114l-469,0z"/>
+<glyph unicode="I" horiz-adv-x="278" d="M76,0l126,0l0,708l-126,0z"/>
+<glyph unicode="J" horiz-adv-x="500" d="M426,708l-126,0l0,-475C300,148 279,96 207,96C163,96 131,127 123,173l-118,-28C27,33 102,-18 213,-18C355,-18 426,83 426,196z"/>
+<glyph unicode="K" horiz-adv-x="685" d="M79,0l126,0l0,348l7,0l307,-348l177,0l-353,381l331,327l-170,0l-293,-300l-6,0l0,300l-126,0z"/>
+<glyph unicode="N" horiz-adv-x="796" d="M79,0l126,0l0,543l2,0l350,-543l160,0l0,708l-126,0l0,-526l-2,0l-343,526l-167,0z"/>
+<glyph unicode="P" horiz-adv-x="611" d="M79,0l126,0l0,293l90,0C445,293 578,325 578,503C578,660 454,708 317,708l-238,0M205,401l0,199l90,0C363,600 446,588 446,501C446,405 353,401 281,401z"/>
+<glyph unicode="R" horiz-adv-x="630" d="M79,0l126,0l0,300l92,0l164,-300l152,0l-188,313C530,328 589,403 589,505C589,664 461,708 325,708l-246,0M205,408l0,192l109,0C379,600 457,590 457,506C457,414 374,408 303,408z"/>
+<glyph unicode="T" horiz-adv-x="574" d="M224,0l126,0l0,594l217,0l0,114l-560,0l0,-114l217,0z"/>
+<glyph unicode=" " horiz-adv-x="296"/>
+</font>
+
+	<font horiz-adv-x="1000">
+<!-- Copyright 1989, 1995, 2002 Adobe Systems Incorporated. All Rights Reserved. Avenir is a trademark of Heidelberger Druckmaschinen AG, exclusively licensed through Linotype Library GmbH, and may be registered in certain jurisdictions. -->
+<font-face font-family="AvenirLTStd-Light" units-per-em="1000" underline-position="-100" underline-thickness="50"/>
+<missing-glyph horiz-adv-x="500" d="M0,0l500,0l0,700l-500,0M250,395l-170,255l340,0M280,350l170,255l0,-510M80,50l170,255l170,-255M50,605l170,-255l-170,-255z"/>
+<glyph unicode="A" horiz-adv-x="685" d="M5,0l69,0l80,188l375,0l77,-188l74,0l-298,708l-68,0M505,248l-325,0l165,388z"/>
+<glyph unicode="C" horiz-adv-x="704" d="M626,152C576,76 488,42 417,42C232,42 117,178 117,354C117,530 232,666 417,666C488,666 563,636 607,570l54,45C599,694 513,726 417,726C201,726 51,570 51,354C51,138 201,-18 417,-18C521,-18 613,19 680,111z"/>
+<glyph unicode="E" horiz-adv-x="593" d="M97,0l449,0l0,60l-383,0l0,276l344,0l0,60l-344,0l0,252l367,0l0,60l-433,0z"/>
+<glyph unicode="F" horiz-adv-x="556" d="M97,0l66,0l0,336l333,0l0,60l-333,0l0,252l358,0l0,60l-424,0z"/>
+<glyph unicode="I" horiz-adv-x="260" d="M97,0l66,0l0,708l-66,0z"/>
+<glyph unicode="L" horiz-adv-x="500" d="M97,0l396,0l0,60l-330,0l0,648l-66,0z"/>
+<glyph unicode="O" horiz-adv-x="834" d="M51,354C51,138 201,-18 417,-18C633,-18 783,138 783,354C783,570 633,726 417,726C201,726 51,570 51,354M117,354C117,530 232,666 417,666C602,666 717,530 717,354C717,178 602,42 417,42C232,42 117,178 117,354z"/>
+<glyph unicode="W" horiz-adv-x="944" d="M211,0l81,0l179,630l2,0l179,-630l81,0l206,708l-68,0l-176,-627l-2,0l-179,627l-84,0l-179,-627l-2,0l-176,627l-68,0z"/>
+<glyph unicode=" " horiz-adv-x="260"/>
+</font>
+
+	<g>
+	<text transform="matrix(1 0 0 1 171.9764 40.6089)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'AvenirLTStd-Light'" font-size="47.488">L</tspan><tspan x="23.7" y="0" fill="#FFFFFF" font-family="'AvenirLTStd-Light'" font-size="47.488">A</tspan><tspan x="56.1" y="0" fill="#FFFFFF" font-family="'AvenirLTStd-Light'" font-size="47.488">W OFFICE</tspan></text>
+	<text transform="matrix(1 0 0 1 5.1464 128.4349)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'AvenirLTStd-Heavy'" font-size="60.2077" letter-spacing="-4">P</tspan><tspan x="32.4" y="0" fill="#FFFFFF" font-family="'AvenirLTStd-Heavy'" font-size="60.2077" letter-spacing="-5">A</tspan><tspan x="70.4" y="0" fill="#FFFFFF" font-family="'AvenirLTStd-Heavy'" font-size="60.2077">TRICK JENNETTEN</tspan></text>
+	<text transform="matrix(1 0 0 1 296.4899 70.2851)" fill="#FFFFFF" font-family="'AvenirLTStd-Light'" font-size="22">OF</text>
+</g>
+</svg>
