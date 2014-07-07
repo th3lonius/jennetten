@@ -9,40 +9,97 @@ License: GNU General Public License v2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 /* line 12, ../scss/reset.scss */
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; list-style: none; vertical-align: baseline; background: transparent; }
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  list-style: none;
+  vertical-align: baseline;
+  background: transparent;
+}
 
 /* line 23, ../scss/reset.scss */
-body { line-height: 1; }
+body {
+  line-height: 1;
+}
 
 /* line 28, ../scss/reset.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
 
 /* line 32, ../scss/reset.scss */
-nav ul { list-style: none; }
+nav ul {
+  list-style: none;
+}
 
 /* line 36, ../scss/reset.scss */
-blockquote, q { quotes: none; }
+blockquote, q {
+  quotes: none;
+}
 
 /* line 41, ../scss/reset.scss */
-blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
 
 /* line 46, ../scss/reset.scss */
-a, a:visited, a:active { color: #FFF; margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+a, a:visited, a:active {
+  color: #FFF;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
 
 /* line 55, ../scss/reset.scss */
-table { border-collapse: collapse; border-spacing: 0; }
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
 
 /* line 60, ../scss/reset.scss */
-input, select { vertical-align: middle; }
+input, select {
+  vertical-align: middle;
+}
 
 /* line 63, ../scss/reset.scss */
-body, html { height: 100%; -webkit-font-smoothing: antialiased!important; }
+body, html {
+  height: 100%;
+  -webkit-font-smoothing: antialiased!important;
+}
 
 /* line 68, ../scss/reset.scss */
-* { box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; text-decoration: none; }
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  text-decoration: none;
+}
 
 /* line 2, ../scss/mixins.scss */
-#main:after, #main > header address:after { content: ""; display: table; clear: both; }
+#main:after, #main > header address:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /*TRANSITIONS*/
 /*TRANSITIONS*/
@@ -52,75 +109,207 @@ body, html { height: 100%; -webkit-font-smoothing: antialiased!important; }
 /*IMAGEBLUR*/
 /*IMAGEGRAYSCALE*/
 /* line 17, ../scss/style.scss */
-body { color: #FFF; font-family: "Open Sans", sans-serif; line-height: 1.7; margin: 0 auto; position: relative; text-align: center; }
+body {
+  color: #FFF;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.7;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
 
 /* line 26, ../scss/style.scss */
-.floatleft { float: left; text-align: right; }
+.floatleft {
+  float: left;
+  text-align: right;
+}
 
 /* line 31, ../scss/style.scss */
-.floatright { float: right; text-align: left; }
+.floatright {
+  float: right;
+  text-align: left;
+}
 
 /*BANNER*/
 /* line 37, ../scss/style.scss */
-div[role=banner] { background: url(../images/banner.svg); background-position: center 10%; background-repeat: no-repeat; background-size: 70%; margin: 0 auto; position: fixed; width: 100%; height: 100%; z-index: 0; }
+div[role=banner] {
+  background: url(../images/banner.svg);
+  background-position: center 10%;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  margin: 0 auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
 
 /*HEADER*/
 /* line 49, ../scss/style.scss */
-#main { left: 0; right: 0; top: 15%; margin: 0 auto; max-width: 75em; padding: 40px; position: absolute; text-align: center; }
+#main {
+  left: 0;
+  right: 0;
+  top: 15%;
+  margin: 0 auto;
+  max-width: 75em;
+  padding: 40px;
+  position: absolute;
+  text-align: center;
+}
 /* line 57, ../scss/style.scss */
-#main > header { position: relative; width: 100%; }
-@media only screen and (max-width: 600px) { /* line 57, ../scss/style.scss */
-  #main > header { margin-bottom: 2em; } }
+#main > header {
+  position: relative;
+  width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  /* line 57, ../scss/style.scss */
+  #main > header {
+    margin-bottom: 2em;
+  }
+}
 /* line 63, ../scss/style.scss */
-#main > header h1 { margin-bottom: 2em; }
+#main > header h1 {
+  margin-bottom: 2em;
+}
 /* line 65, ../scss/style.scss */
-#main > header h1 img { display: block; margin: 0 auto; width: 100%; height: auto; }
+#main > header h1 img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
 /* line 71, ../scss/style.scss */
-#main > header h2 { font-size: 2em; font-weight: 300; text-transform: uppercase; }
-@media only screen and (max-width: 600px) { /* line 71, ../scss/style.scss */
-  #main > header h2 { font-size: 1.5em; } }
+#main > header h2 {
+  font-size: 2em;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 600px) {
+  /* line 71, ../scss/style.scss */
+  #main > header h2 {
+    font-size: 1.5em;
+  }
+}
 /* line 79, ../scss/style.scss */
-#main > header address { font-size: 1.5em; font-style: normal; }
-@media only screen and (max-width: 600px) { /* line 79, ../scss/style.scss */
-  #main > header address { font-size: 1em; } }
+#main > header address {
+  font-size: 1.5em;
+  font-style: normal;
+}
+@media only screen and (max-width: 600px) {
+  /* line 79, ../scss/style.scss */
+  #main > header address {
+    font-size: 1em;
+  }
+}
 /* line 86, ../scss/style.scss */
-#main > header address .container { margin: 0 auto; max-width: 30em; }
-@media only screen and (max-width: 600px) { /* line 90, ../scss/style.scss */
-  #main > header address ul { float: none; text-align: center; } }
+#main > header address .container {
+  margin: 0 auto;
+  max-width: 30em;
+}
+@media only screen and (max-width: 600px) {
+  /* line 90, ../scss/style.scss */
+  #main > header address ul {
+    float: none;
+    text-align: center;
+  }
+}
 
 /*INTRO*/
 /* line 101, ../scss/style.scss */
-.lightblue, .darkblue { float: left; height: 100%; width: 50%; z-index: -1; }
+.lightblue, .darkblue {
+  float: left;
+  height: 100%;
+  width: 50%;
+  z-index: -1;
+}
 
 /* line 108, ../scss/style.scss */
-.lightblue { background-color: #4f87a1; }
+.lightblue {
+  background-color: #4f87a1;
+}
 
 /* line 112, ../scss/style.scss */
-.darkblue { background: #35647e; }
+.darkblue {
+  background: #35647e;
+}
 
 /* line 116, ../scss/style.scss */
-section { color: #FFF; float: left; margin: 40px auto 0; padding: 0; position: relative; text-align: center; width: 50%; height: 100%; }
-@media only screen and (max-width: 600px) { /* line 116, ../scss/style.scss */
-  section { float: none; margin: 0 auto; padding: 10px 40px; width: 100%; } }
+section {
+  color: #FFF;
+  float: left;
+  margin: 40px auto 0;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  width: 50%;
+  height: 100%;
+}
+@media only screen and (max-width: 600px) {
+  /* line 116, ../scss/style.scss */
+  section {
+    float: none;
+    margin: 0 auto;
+    padding: 10px 40px;
+    width: 100%;
+  }
+}
 /* line 130, ../scss/style.scss */
-section header { transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -webkit-transition: all 0.2s ease 0s; position: absolute; }
-@media only screen and (max-width: 600px) { /* line 130, ../scss/style.scss */
-  section header { position: relative; } }
+section header {
+  transition: all 0.2s ease 0s;
+  -moz-transition: all 0.2s ease 0s;
+  -webkit-transition: all 0.2s ease 0s;
+  position: absolute;
+}
+@media only screen and (max-width: 600px) {
+  /* line 130, ../scss/style.scss */
+  section header {
+    position: relative;
+  }
+}
 /* line 136, ../scss/style.scss */
-section header img { width: 150px; height: 150px; }
+section header img {
+  width: 150px;
+  height: 150px;
+}
 /* line 139, ../scss/style.scss */
-section header h2 { font-family: "Open Sans", sans-serif; font-size: 41.887px; font-weight: 300; position: relative; }
-@media only screen and (min-width: 601px) and (max-width: 1023px) { /* line 139, ../scss/style.scss */
-  section header h2 { font-size: 2em; } }
-@media only screen and (max-width: 600px) { /* line 139, ../scss/style.scss */
-  section header h2 { font-size: 1.5em; text-align: center; } }
+section header h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 41.887px;
+  font-weight: 300;
+  position: relative;
+}
+@media only screen and (min-width: 601px) and (max-width: 1023px) {
+  /* line 139, ../scss/style.scss */
+  section header h2 {
+    font-size: 2em;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* line 139, ../scss/style.scss */
+  section header h2 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+}
 
 /* line 155, ../scss/style.scss */
-.injury header { right: 90px; }
-@media only screen and (max-width: 600px) { /* line 155, ../scss/style.scss */
-  .injury header { right: auto; } }
+.injury header {
+  right: 90px;
+}
+@media only screen and (max-width: 600px) {
+  /* line 155, ../scss/style.scss */
+  .injury header {
+    right: auto;
+  }
+}
 
 /* line 162, ../scss/style.scss */
-.workers header { left: 90px; }
-@media only screen and (max-width: 600px) { /* line 162, ../scss/style.scss */
-  .workers header { left: auto; } }
+.workers header {
+  left: 90px;
+}
+@media only screen and (max-width: 600px) {
+  /* line 162, ../scss/style.scss */
+  .workers header {
+    left: auto;
+  }
+}
